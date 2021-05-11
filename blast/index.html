@@ -34,6 +34,20 @@ ul {
 }
 
   </style>
+  
+  <script>
+    var appLink = "https://apps.apple.com/app/apple-store/id1566786049";
+  
+    function openApp() {
+      window.location.replace(appLink);
+    }
+    
+    function setup() {
+      setTimeout(openApp, 1300)
+    } 
+    
+    window.onload = setup;
+  </script> 
 </head>
 
 <body>
@@ -41,7 +55,7 @@ ul {
     <h1>Blast Games</h1>
         <p>Crush blocks, solve puzzles and unlock new levels.</p>
       <p>
-      <a href="https://apps.apple.com/us/app/id1566786049"><img src="play.jpg" width="50%"></a>
+      <a href="https://apps.apple.com/app/apple-store/id1566786049"><img src="play.jpg" width="50%"></a>
       </p>
       <p>
 				Have a blast with Blast Games!
